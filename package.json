@@ -1,0 +1,30 @@
+{
+  "name": "chart-docs",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "export NODE_OPTIONS=--max-old-space-size=15360 && astro dev",
+    "dev-windows": "set NODE_OPTIONS=--max-old-space-size=15360 & astro dev",
+    "start": "export NODE_OPTIONS=--max-old-space-size=15360 && astro dev",
+    "check": "astro check",
+    "build": "export NODE_OPTIONS=--max-old-space-size=15360 && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "0.5.10",
+    "@astrojs/sitemap": "3.1.2",
+    "@astrojs/starlight": "0.21.5",
+    "@astrojs/starlight-docsearch": "0.1.0",
+    "@astrojs/tailwind": "5.1.0",
+    "astro": "4.6.0",
+    "astro-integration-lottie": "0.2.3",
+    "lottie-web": "5.12.2",
+    "sharp": "0.33.3",
+    "starlight-blog": "0.5.1",
+    "starlight-image-zoom": "0.2.0",
+    "starlight-links-validator": "0.7.1",
+    "tailwindcss": "3.4.3",
+    "typescript": "5.4.5"
+  }
+}
