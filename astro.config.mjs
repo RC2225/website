@@ -142,7 +142,7 @@ export default defineConfig({
         },
 
         {
-          label: "Project Be-Bird",
+          label: "GOAT SETUP 🐐",
           collapsed: false,
           autogenerate: {
             directory: "pbb",
